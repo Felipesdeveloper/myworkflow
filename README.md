@@ -20,30 +20,55 @@
 
 ```json
 {
-    "editor.autoIndent": false,
-    "editor.fontSize": 14,
-    "editor.formatOnPaste": false,
-    "editor.tabCompletion": true,
-    "editor.tabSize": 2,
-    "editor.renderWhitespace": "all",
-    "editor.wordWrap": "on",
-    "editor.rulers": [
-        80,
-        120
-    ],
-    "explorer.autoReveal": false,
-    "files.insertFinalNewline": true,
-    "files.trimTrailingWhitespace": true,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "search.exclude": {
-      "/node_modules": true,
-      "/bower_components": true,
-      "**/build": true
+  "editor.autoIndent": false,
+  "editor.fontSize": 14,
+  "editor.formatOnPaste": false,
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "editor.wordWrap": "on",
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "eslint.validate": [
+    {
+      "language": "html",
+      "autoFix": true
     },
-    "workbench.colorTheme": "One Dark Pro Vivid",
-    "workbench.iconTheme": "vscode-icons",
+    {
+      "language": "javascript",
+      "autoFix": true
+    },
+    {
+      "language": "javascriptreact",
+      "autoFix": true
+    },
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    },
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+  ],
+  "explorer.autoReveal": false,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "search.exclude": {
+    "/node_modules": true,
+    "/bower_components": true,
+    "**/dist": true
+  },
+  "workbench.colorTheme": "One Dark Pro Bold",
+  "workbench.iconTheme": "vscode-icons",
 }
-
 ```
 ## Terminal
 
