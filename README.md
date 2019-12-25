@@ -17,6 +17,7 @@
 - [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur);
 - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons);
 - [Vue VSCode snippets](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets);
+- [formate: CSS/LESS/SCSS formatter](https://marketplace.visualstudio.com/items?itemName=MikeBovenlander.formate)
 
 
 ### Settings
@@ -24,7 +25,7 @@
 ```json
 {
   "editor.autoIndent": false,
-  "editor.fontSize": 14,
+  "editor.fontSize": 15,
   "editor.formatOnPaste": false,
   "editor.tabCompletion": "on",
   "editor.tabSize": 2,
@@ -60,7 +61,7 @@
       "autoFix": true
     },
   ],
-  "explorer.autoReveal": false,
+  "explorer.autoReveal": true,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
@@ -69,8 +70,9 @@
     "/bower_components": true,
     "**/dist": true
   },
-  "workbench.colorTheme": "One Dark Pro Bold",
+  "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "vscode-icons",
+  "formate.verticalAlignProperties": false,
 }
 ```
 ## Terminal
