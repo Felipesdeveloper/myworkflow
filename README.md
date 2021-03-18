@@ -32,10 +32,11 @@
   "editor.tabSize": 2,
   "editor.renderWhitespace": "all",
   "editor.wordWrap": "on",
-  "editor.rulers": [
-    80,
-    120
-  ],
+  "editor.rulers": [80, 120],
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
   "eslint.validate": [
     {
       "language": "html",
@@ -60,9 +61,9 @@
     {
       "language": "vue",
       "autoFix": true
-    },
+    }
   ],
-  "explorer.autoReveal": true,
+  "explorer.autoReveal": false,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
@@ -74,6 +75,9 @@
   "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "vscode-icons",
   "formate.verticalAlignProperties": false,
+  "workbench.sideBar.location": "right",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnSaveMode": "modifications"
 }
 ```
 ## Terminal
