@@ -18,7 +18,8 @@
 - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons);
 - [Vue VSCode snippets](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets);
 - [formate: CSS/LESS/SCSS formatter](https://marketplace.visualstudio.com/items?itemName=MikeBovenlander.formate);
-- [todo highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
+- [todo highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight);
+- [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
 
 
 ### Settings
