@@ -145,3 +145,9 @@
 [Oh my zsh](https://github.com/robbyrussell/oh-my-zsh)
 
 [Theme for zsh](https://github.com/denysdovhan/spaceship-zsh-theme)
+
+### Extensões
+
+- [zinit](https://formulae.brew.sh/formula/zinit)
+- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
+- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
