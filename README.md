@@ -14,9 +14,7 @@
 - [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme);
 - [open in browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser);
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense);
-- [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur);
 - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons);
-- [Vue VSCode snippets](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets);
 - [formate: CSS/LESS/SCSS formatter](https://marketplace.visualstudio.com/items?itemName=MikeBovenlander.formate);
 - [todo highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight);
 - [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
