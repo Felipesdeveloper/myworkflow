@@ -1,7 +1,5 @@
 # myworkflow
 
-
-
 ## VS Code
 
 ### Extensions
@@ -18,7 +16,6 @@
 - [formate: CSS/LESS/SCSS formatter](https://marketplace.visualstudio.com/items?itemName=MikeBovenlander.formate);
 - [todo highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight);
 - [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
-
 
 ### Settings
 
@@ -80,6 +77,69 @@
   "workbench.iconTheme": "vscode-icons"
 }
 ```
+
+### Snippets
+
+```json
+{
+  "functional component": {
+    "prefix": "rfc",
+    "body": [
+      "import React from 'react';",
+      "",
+      "interface Props {",
+      "  example: string;",
+      "}",
+      "",
+      "const ${1:Name}: React.FC<Props> = (props: Props) => <>{props.example}</>;",
+      "",
+      "export default ${1};",
+      ""
+    ]
+  },
+  "container component": {
+    "prefix": "rcc",
+    "body": [
+      "import React from 'react';",
+      "import { connect } from 'react-redux';",
+      "import { ${1:AppStateInterface} } from '../../store';",
+      "",
+      "interface StateProps {",
+      "  example: string;",
+      "}",
+      "",
+      "const ${2:Name}: React.FC<StateProps> = (props: StateProps) => <>{props.example}</>;",
+      "",
+      "const mapStateToProps = (state: ${1}): StateProps => ({",
+      "  example: state.example,",
+      "});",
+      "",
+      "export default connect(mapStateToProps)(${2});",
+      ""
+    ]
+  },
+  "styled components": {
+    "prefix": "stld",
+    "body": [
+      "import styled from 'styled-components';",
+      "",
+      "export const ${1:Name} = styled.${2:tagName}`",
+      "${3}",
+      "`;",
+      ""
+    ]
+  },
+  "import export component": {
+    "prefix": "iexpt",
+    "body": ["export { ${2:default} } from './${1:ComponentName}';", ""]
+  },
+  "import": {
+    "prefix": "impt",
+    "body": ["import {${2}} from './${1}';", ""]
+  }
+}
+```
+
 ## Terminal
 
 [Oh my zsh](https://github.com/robbyrussell/oh-my-zsh)
