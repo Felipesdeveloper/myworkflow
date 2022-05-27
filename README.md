@@ -25,14 +25,14 @@
 ```json
 {
   "editor.autoIndent": false,
-  "editor.fontSize": 15,
+  "editor.fontSize": 16,
   "editor.formatOnPaste": false,
   "editor.tabCompletion": "on",
   "editor.tabSize": 2,
   "editor.renderWhitespace": "all",
   "editor.wordWrap": "on",
   "editor.rulers": [80, 120],
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
@@ -71,12 +71,13 @@
     "/bower_components": true,
     "**/dist": true
   },
-  "workbench.colorTheme": "One Dark Pro",
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "One Dark Pro Darker",
   "formate.verticalAlignProperties": false,
   "workbench.sideBar.location": "right",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "editor.formatOnSaveMode": "modifications"
+  "editor.formatOnSaveMode": "modifications",
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "workbench.iconTheme": "vscode-icons"
 }
 ```
 ## Terminal
